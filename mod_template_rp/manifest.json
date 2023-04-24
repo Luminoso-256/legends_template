@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Template for a Minecraft Legends mod.",
+    "min_engine_version": [1, 16, 0],
+    "name": "Mod",
+    "uuid": "c06674e5-3bbb-4e79-8a95-374cb1e095b6",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "64a13923-83e8-48f8-bbdb-3b8a6abbff05",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    //these are hardcoded in the current engine (according to PortalPile)
+    "icon": "dlc_data/icon.jpg",
+    "icon_alt": "dlc_data/icon_alt.jpg",
+    "reward_icon": "dlc_data/reward.png",
+    //end hardcoded
+
+    "name": "mod_template",
+    "pack_id": "mod_template",
+    "type": "myth"
+  }
+  
