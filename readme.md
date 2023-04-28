@@ -1,9 +1,13 @@
 # Legends Minimal Mod Template
 *provides a "bare minimum" (or at least what I think is bare minimum) of setup for Legends to load a world with **your** user-defined gamemode*
 
+![banner image](mod_template_rp/dlc_data/icon_alt.jpg)
+
 ## Where do I put these files? 
 Unlike Bedrock, Legends is currently extremely creator-unfriendly. It doesn't seem to respect development packs & such. You'll
-have to place the BP and RP in their respective subdirectories under `premium_cache`. This folder can be found under `internalStorage` at the root of a steam installation. For Windows Store, extracting the game files & exe and running from there is reccomended.
+have to place the BP and RP in their respective subdirectories under `premium_cache`. This is a multi-step process  for steam. WinStore may also work:
+- place the files under `%APPDATA%\Minecraft Legends\internalStorage\premium_cache`
+- add the pack UUIDs to `%APPDATA%\Minecraft Legends\<some numbers here for Steam>\games\com.mojang\minecraftpe\valid_known_packs.json`
 
 ## What do I have to change to redistribute this?
 There are two things you should worry about:
